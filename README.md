@@ -1,7 +1,7 @@
 # 关于vue-cull-calendar在应用中的一些问题
 ## 目前已知的该组件在周视图时,存在无法选中的bug
 ### 具体在下载完vue-full-calendar依赖包，运行程序时会提示安装jquery moment依赖包，如下：
-![Image text](./images/calendar1.png)
+![Image text](/images/calendar1.png)
 * 如按提示安装相应的依赖时，周视图无法选中，结果如下：
 ![Image text](./images/calendar2.png)
 * 故在遇到上面提示时不可安装以上依赖包，如已安装请移除并删除相应的node-modules，打开package-lock.json,全局查找fullcalendar，找到以下代码：
